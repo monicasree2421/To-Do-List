@@ -1,0 +1,49 @@
+body{
+    display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.todo-main{
+    background-color: plum;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 500px;
+    box-shadow: 1px 0 1px plum;
+}
+.todo-main input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+}
+#add{
+    background-color: rgb(153, 255, 0);
+    border: none;
+    color:white ;
+    border-radius: 5px;
+    height: 35px;
+    width: 50px;
+}
+li{
+    list-style: none;
+}
+.delete-btn{
+    border: none;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+}
+.ispan{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    width: 300px;
+    margin: 10px;
+    height: 30px;
+}
+
